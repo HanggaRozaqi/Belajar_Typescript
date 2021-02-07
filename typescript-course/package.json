@@ -2,9 +2,12 @@
   "scripts": {
     "tsc": "rm -rf build/ && tsc",
     "ts": "rm -rf build/ && tsc -w",
-    "dev": "nodemon ./build/index.js"
+    "dev": "nodemon ./build/typeDasar.js"
   },
   "dependencies": {
     "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
